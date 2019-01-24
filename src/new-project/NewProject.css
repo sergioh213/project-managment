@@ -1,0 +1,35 @@
+input[name=slack] {
+    width: 40px;
+}
+
+#project-triangle {
+    margin-right: 108px;
+}
+
+#new-project {
+    color: rgb(90, 196, 125);
+}
+
+.new-project-input {
+    width: 250px;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+#slack-input {
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#create-project-button {
+    height: 30px;
+    width: 200px;
+    color: white;
+    background-color: rgb(90, 196, 125);
+    border: none;
+    margin-top: 20px;
+}

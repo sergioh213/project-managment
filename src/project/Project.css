@@ -1,0 +1,188 @@
+.project {
+    margin-bottom: 2px;
+}
+
+.project-box {
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.left-box {
+    background-color: rgb(239, 239, 239);
+    margin-right: 2px;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-side-wrapper {
+    display: flex;
+}
+
+.delete {
+    background-color: inherit;
+    padding-right: 30px;
+    padding-left: 30px;
+    /* background-color: rgb(239, 100, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    border: none;
+}
+
+.delete i {
+    font-size: 20px;
+}
+
+.delete i:hover {
+    color: rgb(239, 100, 116);
+}
+
+.arrow-wrapper {
+    background-color: rgb(239, 100, 116);
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.arrow-wrapper i {
+    font-size: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr 1fr 1fr;
+    background-color: rgb(239, 239, 239);
+    margin-top: 2px;
+    min-height: 48px;
+}
+
+.row .box {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+#form-first-space {
+    display: flex;
+}
+
+button#add-task {
+    display: inline-block;
+}
+
+input[name=taskname] {
+    display: inline-block;
+    width: 100%;
+}
+
+select[name="assign"] {
+    width: 100%;
+}
+
+input[name=time] {
+    width: 94%;
+}
+
+#cancel-button {
+    width: 100%;
+}
+
+.time-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.number-field{
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-task {
+    background-color: inherit;
+    border: none;
+    padding-right: 0;
+}
+
+.edit-task i {
+    font-size: 16px;
+    color: rgb(90, 196, 125);
+}
+
+.delete-task{
+    background-color: inherit;
+    border: none;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.delete-task i {
+    color: rgb(239, 100, 116);
+    font-size: 20px;
+}
+
+.new-row {
+    height: 54px;
+    margin-top: 2px;
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    cursor: pointer;
+}
+
+.new-row:hover {
+    background-color: rgb(242, 242, 242);
+}
+
+.new-row button {
+    height: 100%;
+    width: 66px;
+    color: white;
+    background-color: inherit;
+    /* background-color: rgb(239, 100, 116); */
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-row button i {
+    font-size: 30px;
+    left: 2px;
+    color: rgb(239, 100, 116);
+}
+
+.new-task-sign {
+    color: rgb(239, 100, 116);
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+}
+
+.date {
+    margin-top: 8px;
+    color: darkgrey;
+    font-size: 14px;
+    text-align: center;
+}
+
+.deadline {
+    color: rgb(242, 173, 84);
+    margin-bottom: 22px;
+    text-align: center;
+}
